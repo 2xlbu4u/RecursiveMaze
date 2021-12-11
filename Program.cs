@@ -50,7 +50,6 @@ namespace RecursiveMaze
 
         static void Main(string[] args)
         {
-            List<Point> currentPath = new List<Point>() { mStartLocation };
 
             FindSolutions(mStartLocation, null, mStartLocation);
 
